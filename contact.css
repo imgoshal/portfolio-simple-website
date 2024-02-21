@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "DM Serif Text", serif;
+}
+
+.container {
+  padding: 30px;
+}
+
+.section-one {
+  background-color: #a3d2ca;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.section-one__name {
+  color: black;
+}
+
+.section-one__home {
+  text-decoration: none;
+  border: solid 2px black;
+  border-radius: 50px;
+  color: black;
+  background-color: white;
+  padding: 2px 10px 2px 10px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.section-one__home:hover {
+  background-color: #ffbd69;
+}
+
+.section-two {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.section-two__form {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.section-two__contact,
+.section-two__msg,
+.section-two__button {
+  margin: 10px;
+}
+
+.section-two__contact,
+.section-two__msg,
+.section-two__button:focus {
+  outline: none;
+}
+
+.section-two__contact {
+  padding: 10px;
+  border: none;
+  border-bottom: solid red 2px;
+}
+
+.section-two__msg {
+  padding: 10px;
+  border: red solid 2px;
+}
+
+.section-two__button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.section-two__button:hover {
+  background-color: #ffbd69;
+}
+
+.section-five {
+  background-color: grey;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  margin-top: 50px;
+}
+
+.section-five__footer {
+  color: white;
+}
+
+.section-five__socialmedia p {
+  color: white;
+}
+
+.section-five__socialmedia a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}

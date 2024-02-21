@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+.container {
+  padding: 50px;
+}
+
+.section-one {
+  background-color: #f59aa3;
+  padding: 30px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.section-one__contact {
+  text-decoration: none;
+  font-size: 20px;
+  background-color: white;
+  border: solid 2px black;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.section-one__contact:hover {
+  background-color: #f3a953;
+}
+
+.section-two {
+  font-size: 20px;
+}
+
+.section-two__about {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.section-three {
+  margin-top: 40px;
+  margin-left: 220px;
+  font-size: 20px;
+  background-color: #c5f8c8;
+  padding: 30px;
+  display: inline-block;
+  width: 30%;
+}
+
+.section-three__interests {
+  padding-bottom: 20px;
+}
+
+.section-four {
+  display: inline-block;
+  background-color: #fdb9fc;
+  padding: 30px;
+}
+
+.section-five {
+  background-color: grey;
+  padding: 40px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.section-five__footer {
+  color: white;
+}
+
+.section-five__socialmedia p {
+  color: white;
+}
+
+.section-five__socialmedia a {
+  color: white;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.section-three li,
+.section-four li {
+  list-style: none;
+}
